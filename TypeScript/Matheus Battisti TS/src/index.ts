@@ -211,7 +211,7 @@ c1.showBrand();
 // herança
 
 class SuperCar extends Car {
-    engine;
+    engine: number;
 
     constructor(brand: string, wheels: number, engine: number) {
         super(brand, wheels);
